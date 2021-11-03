@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="홈"
+        android:enabled="true"
+        />
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:title="검색"
+        android:enabled="true"
+        />
+    <item
+        android:id="@+id/explorer"
+        android:icon="@drawable/explorer"
+        android:title="탐색"
+        android:enabled="true"
+        />
+    <item
+        android:id="@+id/follow"
+        android:icon="@drawable/follow"
+        android:title="팔로우"
+        android:enabled="true"
+        />
+    <item
+        android:id="@+id/my"
+        android:icon="@drawable/my"
+        android:title="프로필"
+        android:enabled="true"
+        />
+</menu>

@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         // 리스너 등록
-        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+        bottomNavigationView.setOnItemSelectedListener(new BottomNavigationView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 Log.i(TAG, "바텀 네비게이션 클릭");
